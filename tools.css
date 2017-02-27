@@ -170,3 +170,15 @@ h1 {
     color: #212121;
     font-size: 105%;
 }
+
+#rules_descrip, #rules_list {
+    width: 50%;
+    color: #212121;
+    font-size: 125%;
+    float: left;
+}
+
+#thanks {
+    width: 47%;
+    height: 65%;
+}
