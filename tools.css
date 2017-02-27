@@ -1,0 +1,93 @@
+body {
+    background-color: #cacca1;
+}
+
+h1 {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    font-size: 300%;
+}
+
+.banner {
+    width: 90%;
+    height: 24%;
+    margin: auto;
+    padding: 5%;
+    padding-top: 1%;
+    padding-bottom: .5%;
+}
+
+.navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar li+li {
+    border-left: 1px solid #a6a15e;
+}
+
+.navbar a {
+    display: inline-block;
+    padding: 1%;
+    color: #896834;
+    padding-right: 15%;
+    padding-left: 15%;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar li a:hover {
+  background-color: #f8f272;
+  color: black;
+  text-decoration: underline;
+}
+
+.tool {
+    width: 15%;
+    height: 25%;
+}
+
+#tools_list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#tools_list li {
+    display: inline;
+}
+
+#tools_list img {
+    padding: 2%;
+}
+
+#descriptions {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 1%;
+    padding-right: 1%;
+    text-align: center;
+}
+
+.descrip li {
+    display: inline;
+}
+
+.descrip {
+    display: inline-block;
+    width: 80%;
+    padding: 1%;
+    text-decoration: none;
+}
+
+td+td {
+    border-left: 1px solid #a6a15e;
+}
