@@ -68,8 +68,8 @@ h1 {
 #tools_list img {
     padding: 2%;
     min-height: 250px;
-    max-height: 300px;
-    min-width: 150px;
+    max-height: 250px;
+    min-width: 200px;
     max-width: 300px;
 }
 
@@ -112,10 +112,6 @@ table td:first-child {
     border-left: none;
 }
 
-table tr {
+table tr:first-child {
     border-bottom: 1px solid #a6a15e;
-}
-
-table tr:last-child {
-    border-bottom: none;
 }
