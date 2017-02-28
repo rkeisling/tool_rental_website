@@ -1,5 +1,6 @@
 body {
     background-color: #cacca1;
+    font-family: 'Oxygen', sans-serif;
 }
 
 h1 {
@@ -60,6 +61,7 @@ h1 {
     margin: 0;
     padding: 0;
     text-align: center;
+    width: 100%;
 }
 
 #tools_list li {
@@ -163,7 +165,7 @@ h1 {
     padding: 1%;
 }
 
-#bottom_break {
+.bottom_break {
     clear: both;
 }
 
