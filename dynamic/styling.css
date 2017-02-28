@@ -1,13 +1,18 @@
+body {
+    padding-top: 3%;
+    background-color: #cacca1;
+    font-family: 'Oxygen', sans-serif;
+}
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   min-height: 500px;    /* Set slide height here */
   max-height: 500px;
-  min-width: 400px;
-  max-width: 400px;
+  min-width: 425px;
+  max-width: 425px;
 }
 #myCarousel.carousel.slide {
     width: 100%; 
-    max-width: 400px;
+    max-width: 450px;
     margin: auto;
 }
 .hd_link {
@@ -15,8 +20,24 @@
 }
 .banner {
     width: 100%;
-    height: 25%;
-    padding-left: 2.5%;
-    padding-right: 2.5%;
+    height: 30%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    
 }
-
+#instruct {
+    text-align: center;
+    text-decoration: underline;
+}
+.copyright {
+    text-align: center;
+}
+.descrip {
+    text-align: center;
+    font-size: 125%;
+}
+#icon_in_nav {
+    height: 2%;
+    width: 2%;
+}
