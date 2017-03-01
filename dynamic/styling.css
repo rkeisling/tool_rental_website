@@ -43,4 +43,19 @@ body {
 }
 #num_days {
     text-align: center;
+    height: 5%;
+    width: 12.5%;
+    font-size: 120%;
+}
+.tool {
+    height: 5%;
+    width: 12.5%;
+    font-size: 120%;
+}
+.drop {
+    font-size: 120%;
+    text-align: center;
+}
+.modal-body {
+    font-size: 130%;
 }
