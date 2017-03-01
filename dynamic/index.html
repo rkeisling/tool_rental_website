@@ -44,10 +44,13 @@
     <h1 id="instruct" class="col-md-12">Click an image to see a description!
     </h1>
     <div class="row">
-      <p class="col-md-4 descrip">We are committed to customer satisfaction by providing quality products, solutions and operational excellence. We utilize a proactive, customer-centered approach and pride ourselves in “getting it right the first time”. We want every customer to have full confidence in our ability to deliver. In order to fulfill our commitment to quality, we develop and recognize leaders and innovators who strive for continuous improvement, who are empowered to act, and who execute the highest standards of performance.
+        <div class="col-md-4">
+      <p class="descrip">We are committed to customer satisfaction by providing quality products, solutions and operational excellence. We utilize a proactive, customer-centered approach and pride ourselves in “getting it right the first time”. We want every customer to have full confidence in our ability to deliver. In order to fulfill our commitment to quality, we develop and recognize leaders and innovators who strive for continuous improvement, who are empowered to act, and who execute the highest standards of performance.
       </p>
+      </div>
     <!-- Header Carousel -->
-    <header id="myCarousel" class="carousel slide col-md-4">
+    <div class="col-md-4">
+    <header id="myCarousel" class="carousel slide">
         <!-- Indicators -->
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -94,8 +97,33 @@
             <span class="icon-next"></span>
         </a>
     </header>
-    <p class="col-md-4 descrip">To add value for our customers, we conduct regular reviews of our operations to continually monitor our processes. Through ongoing training, team members are able to contribute to customer satisfaction on every level by identifying problems and developing solutions. In order to deliver the best of breed products and solutions, we choose our partners carefully and only work with industry leading manufacturers.
+    </div>
+    <div class="col-md-4">
+    <p class="descrip">To add value for our customers, we conduct regular reviews of our operations to continually monitor our processes. Through ongoing training, team members are able to contribute to customer satisfaction on every level by identifying problems and developing solutions. In order to deliver the best of breed products and solutions, we choose our partners carefully and only work with industry leading manufacturers.
     </p>
+    </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-md-12">
+            <center>
+            <div class="btn-group">
+            <button type="button" data-toggle="dropdown" class="btn btn-md dropdown-toggle">Item Choice <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Auger</a></li>
+                    <li><a href="#">Nailgun</a></li>
+                    <li><a href="#">Air Compressor</a></li>
+                    <li><a href="#">Generator</a></li>
+                    <li><a href="#">Tilesaw</a></li>
+                    
+                </ul>
+            </div>
+    <br /><br />
+    <input placeholder="Days Renting" id="num_days" type="text" onkeypress='return event.charCode >= 48 && event.charCode <= 57'></input>
+    <br /><br />
+    <button id="submit" class="btn btn-lg" onclick="">Submit</button>
+    </center>
+    </div>
     </div>
     <hr class='bottom_break' color='#a6a15e' size=.75>
     <p class="copyright">

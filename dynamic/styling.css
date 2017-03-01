@@ -41,3 +41,6 @@ body {
     height: 2%;
     width: 2%;
 }
+#num_days {
+    text-align: center;
+}
